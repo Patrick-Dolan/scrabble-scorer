@@ -17,7 +17,7 @@ namespace ScrabbleScorer
       ScrabbleChecker scrabbleWord = new ScrabbleChecker(Console.ReadLine());
       Console.WriteLine(scrabbleWord.Word + " would score: " + scrabbleWord.CalculateScore());
       
-      Console.WriteLine("Would you like to score another word?");
+      Console.WriteLine("Would you like to score another word? (Y/N)");
       string checkMoreWords = Console.ReadLine();
       if (checkMoreWords == "Y" || checkMoreWords == "y")
       {
