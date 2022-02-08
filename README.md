@@ -1,8 +1,8 @@
-# {Application name here}
+# Scrabble Scorer
 
-#### By _**{List of contributors}**_
+#### By _**Branden Clauson, Nick Sullivan, and Patrick Dolan**_
 
-#### _{Brief description of application}_
+#### _A console based scrabble word score checker._
 
 <!-- ## Github Pages Link
 
@@ -16,15 +16,13 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_Type in a word and the checker will tell you how much the word is worth based on the scoring system scrabble employs, tallying up individual letter values._
 
 ## Setup/Installation Requirements
 
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
+* Clone repo into a directory on your computer 
+* Navigate into the directory called scrabble-scorer that you cloned and open the files with you code editor/terminal of choice
+* Navigate into the ScrabbleScorer directory and the run the following command to launch the program:  <code>dotnet run</code>
 
 ### Test Setup/Installation
 [Resource on how to build/use this template](https://www.learnhowtoprogram.com/c-and-net-part-time/test-driven-development-with-c/mstest-configuration-quick-reference)
@@ -43,16 +41,15 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known issues_
 
 ## Contact Me
 
 Let me know if you run into any issues or have questions, ideas or concerns:  
-{PUT EMAIL HERE}
+dolanp199@gmail.com
 
 ## License
 
 _MIT_
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) _2022_ _Branden Clauson, Nick Sullivan, and Patrick Dolan_
