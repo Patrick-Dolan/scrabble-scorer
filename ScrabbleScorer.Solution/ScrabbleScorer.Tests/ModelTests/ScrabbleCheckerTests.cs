@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ScrabbleScorer.Models;
+using System.Collections.Generic;
 
 namespace ScrabbleScorer.Tests
 {
@@ -19,13 +20,12 @@ namespace ScrabbleScorer.Tests
       string result = newScrabbleChecker.Word;
       Assert.AreEqual("Word", result);
     }
+    [TestMethod]
+    public void CalculateScore_ReturnScrabbleScore_Number()
+    {
+      ScrabbleChecker newScrabbleChecker = new ScrabbleChecker("Word");
+      int score = 8;
+      Assert.AreEqual(score, newScrabbleChecker.CalculateScore());
+    }
   }
 }
-// Example Test Method Structure
-//_________________________
-// [TestMethod]
-// public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
-// {
-//   // any necessary logic to prep for test; instantiating new classes, etc.
-//   Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
-// }
