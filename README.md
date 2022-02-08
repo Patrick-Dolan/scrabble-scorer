@@ -22,7 +22,7 @@ _Type in a word and the checker will tell you how much the word is worth based o
 
 * Clone repo into a directory on your computer 
 * Navigate into the directory called scrabble-scorer that you cloned and open the files with you code editor/terminal of choice
-* Navigate into the ScrabbleScorer directory and the run the following command to launch the program:  <code>dotnet run</code>
+* Navigate into the ScrabbleScorer directory and the run the following command to launch the program:<br><code>dotnet run</code>
 
 ### Test Setup/Installation
 [Resource on how to build/use this template](https://www.learnhowtoprogram.com/c-and-net-part-time/test-driven-development-with-c/mstest-configuration-quick-reference)
