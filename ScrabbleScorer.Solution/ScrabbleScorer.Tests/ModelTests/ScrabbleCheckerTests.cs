@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
+using ScrabbleScorer.Models;
 
-namespace ProjectName.Tests
+namespace ScrabbleScorer.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class ScrabbleCheckerTests
   {
     // Test methods go here
   }
